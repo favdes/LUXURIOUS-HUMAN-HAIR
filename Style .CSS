@@ -1,0 +1,22 @@
+header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+a, li{
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(182, 6, 6);
+}

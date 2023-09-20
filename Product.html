@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+         table{
+            width: 50%;
+            text-align: center;
+            background-color: aquamarine;
+            
+        }
+       table, th, td{
+        border:  2px solid #000;
+        padding: 10px;
+        border-collapse: collapse;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LUXURIOUS HUMAN HAIR</h1>
+     
+         <h4><a href="Home.html">Home</a>
+             <a href="About.html">About</a>
+        <a href="./Product.html">Product</a></h4>
+     </header> 
+<!-- Table -->
+     <table>
+        <tr>
+            <th>Product name</th>
+            <th>Product image</th>
+            <th>Product price</th>
+        </tr>
+        <tr>
+            <td>Veitnam Human Hair</td>
+            <td><img src="./Pure luxurios hair.jpg" alt="" width="65%" height="70%"></td>
+            <td>$370</td>
+        </tr>
+        <tr>
+            <td>Raw Veitnam Human Hair</td>
+            <td><img src="./Raw donor hair.jpg" alt="" width="65%" height="70%"></td>
+            <td>$270</td>
+        </tr>
+        <tr>
+            <td>Weave Human Hair</td>
+            <td><img src="./weave hair.webp" alt="" width="65%" height="70%"></td>
+            <td>$325</td>
+        </tr>
+        <tr>
+            <td>Veitnam Bone straight</td>
+            <td><img src="./Virgin human hair.webp" alt="" width="65%" height="70%"></td>
+            <td>$415</td>
+        </tr>
+        <tr>
+            <td>Pure Human Hair</td>
+            <td><img src="./pure human hair.jpg" alt="" width="65%" height="70%"></td>
+            <td>$395</td>
+        </tr>
+      </table>
+
+      <!-- input tag -->
+        <form>
+           <h3><label for="">Hair Types</label></h3> 
+                <h5><input type="radio" name="" id=""><label for="">Veitnam Human Hair</label></h5>
+                <h5><input type="radio" name="" id=""><label for="">Raw Veitnam Human Hair</label></h5>
+                <h5><input type="radio" name="" id=""><label for="">Weave Human Hair</label></h5>
+                <h5><input type="radio" name="" id=""><label for="">Veitnam Bone straight</label></h5>
+                <h5><input type="radio" name="" id=""><label for="">Pure Human Hair</label></h5>
+
+            <h3>Customer Order Details</h3>
+                <h5>
+                 <label for="Title">Choose a Title:</label>
+                 <select name="Title" id="Title">
+                 <option value="Mr.">Mr.</option>
+                  <option value="Mrs.">Mrs.</option>
+                 <option value="Miss.">Miss.</option>
+                 <option value="Dr.">Dr.</option></select><br>
+                 <label for="">Name:</label>
+                  <input type="text" placeholder="enter name"><br>
+                 <label for="">Phone Number:</label>
+                  <input type="number" placeholder="enter phone number" name="" id=""><br>
+                 <label for="">Home Address:</label>
+                 <textarea name="Home Address" id="" cols="30" rows="6" placeholder="Enter Delivery address"></textarea><br>
+                 <label for="">Do you want to be added to a newsletter</label> 
+                 <input type="checkbox" name="" id=""><br>
+                 <label for="">Would you like to retain your information</label>
+                 <input type="checkbox" name="" id=""><br></h5>
+                 
+                 <a href="#">Checkout</a>
+                 
+                </form>
+</body>
+</html>
